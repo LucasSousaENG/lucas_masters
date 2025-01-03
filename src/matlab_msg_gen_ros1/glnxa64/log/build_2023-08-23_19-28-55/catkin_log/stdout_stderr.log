@@ -1,0 +1,161 @@
+ROS_DISTRO was set to 'kinetic' before. Please make sure that the environment does not mix paths from different distributions.
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using CATKIN_DEVEL_PREFIX: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /home/lucas/Matlab/sys/ros1/glnxa64/ros1;/home/lucas/Matlab/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /home/lucas/Matlab/sys/ros1/glnxa64/ros1;/home/lucas/Matlab/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - wpg
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'wpg'
+-- ==> add_subdirectory(wpg)
+-- Disabling the following message generators: geneus;genlisp;gennodejs
+-- Using these message generators: gencpp;genpy
+-- wpg: 4 messages, 0 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build
+[1/19] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/vehicle_smc_gains.msg std_msgs/Header
+[2/19] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/fuzzy_lcs.msg std_msgs/Header
+[3/19] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/fuzzy.msg std_msgs/Header
+[4/19] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/defuzzyfied.msg std_msgs/Header
+[5/19] Generating Python from MSG wpg/defuzzyfied
+[6/19] Generating Python from MSG wpg/vehicle_smc_gains
+[7/19] Generating Python from MSG wpg/fuzzy
+[8/19] Generating Python from MSG wpg/fuzzy_lcs
+[9/19] Generating Python msg __init__.py for wpg
+[10/19] Generating C++ code from wpg/defuzzyfied.msg
+[11/19] Generating C++ code from wpg/fuzzy.msg
+[12/19] Generating C++ code from wpg/fuzzy_lcs.msg
+[13/19] Generating C++ code from wpg/vehicle_smc_gains.msg
+[14/19] Building CXX object wpg/CMakeFiles/wpg_matlab.dir/src/wpg_defuzzyfied_message.cpp.o
+[15/19] Building CXX object wpg/CMakeFiles/wpg_matlab.dir/src/wpg_fuzzy_message.cpp.o
+[16/19] Building CXX object wpg/CMakeFiles/wpg_matlab.dir/src/wpg_fuzzy_lcs_message.cpp.o
+[17/19] Building CXX object wpg/CMakeFiles/wpg_matlab.dir/src/wpg_vehicle_smc_gains_message.cpp.o
+[18/19] Linking CXX shared library /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/libwpg_matlab.so
+[18/19] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/_setup_util.py
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/env.sh
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/setup.bash
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/local_setup.bash
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/setup.sh
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/local_setup.sh
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/setup.zsh
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/local_setup.zsh
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/.rosinstall
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/defuzzyfied.msg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/fuzzy.msg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/fuzzy_lcs.msg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/vehicle_smc_gains.msg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/cmake/wpg-msg-paths.cmake
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/fuzzy_lcs.h
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/fuzzy.h
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/vehicle_smc_gains.h
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/defuzzyfied.h
+Listing /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg ...
+Compiling /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg/__init__.py ...
+Listing /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg/msg ...
+Compiling /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg/msg/__init__.py ...
+Compiling /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg/msg/_defuzzyfied.py ...
+Compiling /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg/msg/_fuzzy.py ...
+Compiling /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg/msg/_fuzzy_lcs.py ...
+Compiling /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg/msg/_vehicle_smc_gains.py ...
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy_lcs.pyc
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy.py
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/__init__.py
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_vehicle_smc_gains.pyc
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_defuzzyfied.pyc
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy.pyc
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_defuzzyfied.py
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy_lcs.py
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/__init__.pyc
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_vehicle_smc_gains.py
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/__init__.py
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/__init__.pyc
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/pkgconfig/wpg.pc
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/cmake/wpg-msg-extras.cmake
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/cmake/wpgConfig.cmake
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/cmake/wpgConfig-version.cmake
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/package.xml
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/visibility_control.h
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/libwpg_matlab.so
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m/
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/vehicle_smc_gains.m
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/fuzzy_lcs.m
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/defuzzyfied.m
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/fuzzy.m
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/vehicle_smc_gains.m
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/fuzzy_lcs.m
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/defuzzyfied.m
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/fuzzy.m
+Base path: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64
+Source space: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src
+Build space: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build
+Devel space: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel
+Install space: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install
+Creating symlink "/home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/CMakeLists.txt" pointing to "/home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/catkin/cmake/toplevel.cmake"
+####
+#### Running command: "cmake /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=/home/lucas/Matlab/sys/ros1/glnxa64/ros1;/home/lucas/Matlab/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=-O0 -DCATKIN_DEVEL_PREFIX=/home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel -DCMAKE_INSTALL_PREFIX=/home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install -G Ninja" in "/home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build"
+####
+####
+#### Running command: "ninja install install -j3 -l3" in "/home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build"
+####

@@ -1,0 +1,144 @@
+ROS_DISTRO was set to 'kinetic' before. Please make sure that the environment does not mix paths from different distributions.
+[0/1] Re-running CMake...
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using CATKIN_DEVEL_PREFIX: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /home/lucas/Matlab/sys/ros1/glnxa64/ros1;/home/lucas/Matlab/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /home/lucas/Matlab/sys/ros1/glnxa64/ros1;/home/lucas/Matlab/toolbox/ros/mlroscpp/custom_messages
+-- Using PYTHON_EXECUTABLE: /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - wpg
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'wpg'
+-- ==> add_subdirectory(wpg)
+-- Disabling the following message generators: geneus;genlisp;gennodejs
+-- Using these message generators: gencpp;genpy
+-- wpg: 7 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build
+ninja: no work to do.
+[1/8] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/vehicle_smc_gains.msg std_msgs/Header
+[2/8] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/fuzzy_lcs.msg std_msgs/Header
+[3/8] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/defuzzy_lcs.msg std_msgs/Header
+[4/8] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/defuzzy_vel_modif.msg std_msgs/Header
+[5/8] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/fuzzy.msg std_msgs/Header
+[6/8] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/fuzzy_vel_modif.msg std_msgs/Header
+[7/8] cd /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/wpg && /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/lucas/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /home/lucas/Matlab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wpg /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src/wpg/msg/defuzzyfied.msg std_msgs/Header
+[7/8] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/_setup_util.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/env.sh
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/setup.bash
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/local_setup.bash
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/setup.sh
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/local_setup.sh
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/setup.zsh
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/local_setup.zsh
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/.rosinstall
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/defuzzy_lcs.msg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/defuzzy_vel_modif.msg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/defuzzyfied.msg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/fuzzy.msg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/fuzzy_lcs.msg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/fuzzy_vel_modif.msg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/msg/vehicle_smc_gains.msg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/cmake/wpg-msg-paths.cmake
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/defuzzy_vel_modif.h
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/fuzzy_lcs.h
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/defuzzy_lcs.h
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/fuzzy.h
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/fuzzy_vel_modif.h
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/vehicle_smc_gains.h
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/defuzzyfied.h
+Listing /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg ...
+Listing /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/wpg/msg ...
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy_lcs.pyc
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_defuzzy_lcs.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy_vel_modif.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/__init__.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_vehicle_smc_gains.pyc
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_defuzzy_vel_modif.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_defuzzyfied.pyc
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy.pyc
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy_vel_modif.pyc
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_defuzzyfied.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_defuzzy_vel_modif.pyc
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_fuzzy_lcs.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_defuzzy_lcs.pyc
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/__init__.pyc
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/msg/_vehicle_smc_gains.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/__init__.py
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/wpg/__init__.pyc
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/pkgconfig/wpg.pc
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/cmake/wpg-msg-extras.cmake
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/cmake/wpgConfig.cmake
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/cmake/wpgConfig-version.cmake
+-- Installing: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/share/wpg/package.xml
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/include/wpg/visibility_control.h
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/lib/libwpg_matlab.so
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m/
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/defuzzy_lcs.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/defuzzy_vel_modif.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/vehicle_smc_gains.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/fuzzy_lcs.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/defuzzyfied.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/fuzzy.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+wpg/fuzzy_vel_modif.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/defuzzy_lcs.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/defuzzy_vel_modif.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/vehicle_smc_gains.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/fuzzy_lcs.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/defuzzyfied.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/fuzzy.m
+-- Up-to-date: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+wpg/fuzzy_vel_modif.m
+Base path: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64
+Source space: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/src
+Build space: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build
+Devel space: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel
+Install space: /home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install
+####
+#### Running command: "ninja build.ninja" in "/home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build"
+####
+####
+#### Running command: "ninja install install -j6 -l6" in "/home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/build"
+####

@@ -1,0 +1,83 @@
+[System]
+Name='lucasv2_angular'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=35
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Phi'
+Range=[-180 180]
+NumMFs=7
+MF1='HCW':'trimf',[-180 -145 -110]
+MF2='CW':'trimf',[-120 -90 -60]
+MF3='LCW':'trimf',[-70 -30 0]
+MF4='ZERO':'trimf',[-5 0 5]
+MF5='LCCW':'trimf',[0 30 70]
+MF6='CCW':'trimf',[60 90 120]
+MF7='HCCW':'trimf',[110 145 180]
+
+[Input2]
+Name='Disto'
+Range=[0 160]
+NumMFs=5
+MF1='MP':'trimf',[0 0 32]
+MF2='P':'trimf',[26 53 76]
+MF3='MD':'trimf',[64 96 128]
+MF4='L':'trimf',[116 140 160]
+MF5='ML':'trimf',[140 160 160]
+
+[Output1]
+Name='Theta'
+Range=[-90 90]
+NumMFs=7
+MF1='HTR':'trimf',[-90 -90 -60]
+MF2='TR':'trimf',[-70 -45 -20]
+MF3='LTR':'trimf',[-30 -10 0]
+MF4='ZE':'trimf',[-5 0 5]
+MF5='LTLe':'trimf',[0 10 30]
+MF6='TLe':'trimf',[20 45 70]
+MF7='HTLe':'trimf',[60 90 90]
+
+[Rules]
+1 1, 7 (1) : 1
+1 2, 6 (1) : 1
+1 3, 5 (1) : 1
+1 4, 5 (1) : 1
+1 5, 5 (1) : 1
+2 1, 7 (1) : 1
+2 2, 7 (1) : 1
+2 3, 6 (1) : 1
+2 4, 6 (1) : 1
+2 5, 6 (1) : 1
+3 1, 7 (1) : 1
+3 2, 7 (1) : 1
+3 3, 5 (1) : 1
+3 4, 5 (1) : 1
+3 5, 5 (1) : 1
+4 1, 4 (1) : 1
+4 2, 4 (1) : 1
+4 3, 4 (1) : 1
+4 4, 4 (1) : 1
+4 5, 4 (1) : 1
+5 1, 3 (1) : 1
+5 3, 3 (1) : 1
+5 2, 3 (1) : 1
+5 4, 3 (1) : 1
+5 5, 3 (1) : 1
+6 1, 1 (1) : 1
+6 2, 1 (1) : 1
+6 3, 3 (1) : 1
+6 4, 3 (1) : 1
+6 5, 3 (1) : 1
+7 2, 1 (1) : 1
+7 3, 2 (1) : 1
+7 4, 3 (1) : 1
+7 5, 3 (1) : 1
+7 1, 1 (1) : 1

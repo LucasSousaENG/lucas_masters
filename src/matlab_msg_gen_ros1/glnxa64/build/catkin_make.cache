@@ -1,0 +1,2 @@
+wpg
+-DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=/home/lucas/Matlab/sys/ros1/glnxa64/ros1;/home/lucas/Matlab/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=-O0 -DCATKIN_DEVEL_PREFIX=/home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/devel -DCMAKE_INSTALL_PREFIX=/home/lucas/catkin_ws/src/matlab_msg_gen_ros1/glnxa64/install -G Ninja
