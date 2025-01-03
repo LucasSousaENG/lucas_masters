@@ -1,0 +1,18 @@
+- git:
+    local-name: LMS1xx
+    uri: https://github.com/clearpathrobotics/LMS1xx.git
+- git:
+    local-name: gazebo_ros_pkgs
+    uri: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+- git:
+    local-name: jackal
+    uri: https://github.com/jackal/jackal.git
+- git:
+    local-name: jackal_simulator
+    uri: https://github.com/jackal/jackal_simulator.git
+- git:
+    local-name: navigation_msgs
+    uri: https://github.com/ros-planning/navigation_msgs.git
+- git:
+    local-name: pointgrey_camera_driver
+    uri: https://github.com/ros-drivers/pointgrey_camera_driver.git

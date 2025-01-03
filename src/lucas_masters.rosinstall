@@ -1,0 +1,13 @@
+- git: {local-name: LMS1xx, uri: 'https://github.com/clearpathrobotics/LMS1xx.git',
+    version: 791c622b4f3f7953bb1b8c908e5099d17748efd2}
+- git: {local-name: gazebo_ros_pkgs, uri: 'https://github.com/ros-simulation/gazebo_ros_pkgs.git',
+    version: 98bb3d0a0afc65725deaa1633e21ff6f5322b564}
+- git: {local-name: jackal, uri: 'https://github.com/jackal/jackal.git', version: 6bbc110408f485b8c5df1de902000ada07f9e779}
+- git: {local-name: jackal_simulator, uri: 'https://github.com/jackal/jackal_simulator.git',
+    version: 585ec6693bcd5348ccaebbaacc83f354c7a570a2}
+- git: {local-name: navigation_msgs, uri: 'https://github.com/ros-planning/navigation_msgs.git',
+    version: 793d06ff51d20fcd94832161ccde268cb4ce5e38}
+- git: {local-name: pointgrey_camera_driver, uri: 'https://github.com/ros-drivers/pointgrey_camera_driver.git',
+    version: cc8801489476d46951a0156f3b58de14bf124c92}
+- git: {local-name: youbot, uri: 'https://github.com/ut-ims-robotics/youbot.git',
+    version: c4775dff0f3957db6103da8b6a8a0e971f009179}
