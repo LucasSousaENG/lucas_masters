@@ -1,0 +1,70 @@
+[System]
+Name='lucasdist2_updated'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=25
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='distance'
+Range=[0 10]
+NumMFs=5
+MF1='VN':'trimf',[0 0 2]
+MF2='N':'trimf',[1 3 5]
+MF3='MED':'trimf',[4 6 8]
+MF4='F':'trimf',[7 9 10]
+MF5='VF':'trimf',[9 10 10]
+
+[Input2]
+Name='vel'
+Range=[0 1]
+NumMFs=5
+MF1='very_slow':'trimf',[0 0 0.4]
+MF2='slow':'trimf',[0.2 0.4 0.6]
+MF3='medium':'trimf',[0.4 0.6 0.8]
+MF4='fast':'trimf',[0.6 0.8 1]
+MF5='very_fast':'trimf',[0.8 1 1]
+
+[Output1]
+Name='acceleration'
+Range=[-0.04 0.02]
+NumMFs=5
+MF1='zero':'trimf',[-0.04 -0.04 -0.02]
+MF2='low_slowdown':'trimf',[-0.03 -0.02 -0.01]
+MF3='slowdown':'trimf',[-0.02 -0.01 0]
+MF4='high_slowdown':'trimf',[-0.01 0 0.01]
+MF5='accel':'trimf',[0 0.01 0.02]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1
+1 3, 3 (1) : 1
+1 4, 4 (1) : 1
+1 5, 5 (1) : 1
+2 1, 2 (1) : 1
+2 2, 3 (1) : 1
+2 3, 4 (1) : 1
+2 4, 5 (1) : 1
+2 5, 5 (1) : 1
+3 1, 3 (1) : 1
+3 2, 4 (1) : 1
+3 3, 5 (1) : 1
+3 4, 5 (1) : 1
+3 5, 5 (1) : 1
+4 1, 4 (1) : 1
+4 2, 5 (1) : 1
+4 3, 5 (1) : 1
+4 4, 5 (1) : 1
+4 5, 5 (1) : 1
+5 1, 5 (1) : 1
+5 2, 5 (1) : 1
+5 3, 5 (1) : 1
+5 4, 5 (1) : 1
+5 5, 5 (1) : 1
+
